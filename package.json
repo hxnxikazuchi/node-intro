@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "task1": "nodemon src/lesson3/task1.js",
+    "task2": "nodemon src/lesson3/task2.js",
+    "task3": "nodemon src/lesson3/task3.js"
   },
   "author": "Ruslan Kupzhassarov",
   "license": "ISC",
