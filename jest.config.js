@@ -4,7 +4,9 @@ export default {
   roots: ["./src"],
   silent: false,
   verbose: true,
-  collectCoverage: true,
+  coveragePathIgnorePatterns: [
+    "<rootDir>/src/lesson4/__tests__",
+  ],
   collectCoverageFrom: ["src/**/*"],
   coverageReporters: ["text"],
   projects: [
@@ -21,8 +23,5 @@ export default {
     global: {
       lines: 85,
     },
-  },
-  transform: {
-    "^.+\\.ts?$": "babel-jest",
-  },
+  }
 };
